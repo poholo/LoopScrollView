@@ -1,5 +1,7 @@
 # LoopScrollView
 UIScrollView 循环滚动Demo
+
+Demo 地址 [LoopScrollview](https://github.com/poholo/LoopScrollView)
 ###初始化
 keypoint
 
@@ -18,34 +20,34 @@ keypoint
 
 1.2.1 2- 1 交换位置 【序号】
 
-![图1](https://github.com/poholo/LoopScrollView/raw/master/guidSource/1.2.1.png)
+![图](https://github.com/poholo/LoopScrollView/raw/master/guidSource/1.2.1.png)
 
 1.2.2 1 - 3 交换位置  
 
-![图1](https://github.com/poholo/LoopScrollView/raw/master/guidSource/1.2.2.png)
+![图](https://github.com/poholo/LoopScrollView/raw/master/guidSource/1.2.2.png)
 
 1.2.3 充值frame位置 按照 容器 3 1 2 放置 且让contentOffset位于第二屏幕
 
-![图1](https://github.com/poholo/LoopScrollView/raw/master/guidSource/1.3.png)
+![图](https://github.com/poholo/LoopScrollView/raw/master/guidSource/1.3.png)
 
 ###2 左滑循环
 keypoint
 
 2.1 正常scrollview滚动到3位置
 
-![图1](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.1.png)
+![图](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.1.png)
 
 2.2 让3处于中间位置，1位于3的右边，2位于3左边
 
 2.2.1 3 - 1 交换位置 【序号】
 
-![图1](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.2.1.png)
+![图](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.2.1.png)
 
 2.2.2 1 - 2 交换位置
 
-![图1](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.2.2.png)
+![图](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.2.2.png)
 
 2.2.3 充值frame位置 按照 容器 3 1 2 放置 且让contentOffset位于第二屏幕
 
-![图1](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.3.png)
+![图](https://github.com/poholo/LoopScrollView/raw/master/guidSource/2.3.png)
 
