@@ -2,6 +2,11 @@
 UIScrollView 循环滚动Demo
 
 Demo 地址 [LoopScrollview](https://github.com/poholo/LoopScrollView)
+
+###Demo 演示
+
+![图1](https://github.com/poholo/LoopScrollView/raw/master/LoopScrollView.gif)
+
 ###初始化
 keypoint
 
