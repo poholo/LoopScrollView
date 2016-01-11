@@ -22,6 +22,9 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         let width:CGFloat = view.frame.size.width
         let height:CGFloat = view.frame.size.height - 20
+        
+        scrollview.frame = CGRectMake(0, 20, width, height)
+        
         label1.frame = CGRectMake(width, 0, width, height)
         label2.frame = CGRectMake(2*width, 0, width, height)
         label3.frame = CGRectMake(0, 0, width, height)

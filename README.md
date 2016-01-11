@@ -1,6 +1,14 @@
 # LoopScrollView
 UIScrollView 循环滚动Demo
 
+###update
+v1.1
+```
+忘记没用autolayout，后来也是按照iPhone6 plus尺寸默认初始化的，导致6+一下均不能正常滑动，感谢@_洪小瑶
+scrollview.frame = CGRectMake(0, 20, width, height)
+```
+
+
 Demo 地址 [LoopScrollview](https://github.com/poholo/LoopScrollView)
 
 ###Demo 演示
