@@ -23,14 +23,14 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         let width:CGFloat = view.frame.size.width
         let height:CGFloat = view.frame.size.height - 20
         
-        scrollview.frame = CGRectMake(0, 20, width, height)
+        scrollview.frame = CGRect(x: 0, y: 20, width: width, height: height)
+
         
-        label1.frame = CGRectMake(width, 0, width, height)
-        label2.frame = CGRectMake(2*width, 0, width, height)
-        label3.frame = CGRectMake(0, 0, width, height)
-        scrollview.contentSize = CGSizeMake(width*3, height)
-        scrollview.contentOffset = CGPointMake(width, 0)
-        
+        label1.frame = CGRect(x: width, y: 0, width: width, height: height)
+        label2.frame = CGRect(x: 2 * width, y: 0, width: width, height: height)
+        label3.frame = CGRect(x: 0, y: 0, width: width, height: height)
+        scrollview.contentSize = CGSize(width: width * 3, height: height)
+        scrollview.contentOffset = CGPoint(x: width, y: 0)
         
     }
 
@@ -39,7 +39,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         //当前 page
         let width:CGFloat = view.frame.size.width
         let height:CGFloat = view.frame.size.height - 20
@@ -75,10 +75,10 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         default:
             break
         }
-        label1.frame = CGRectMake(width,0,width,height)
-        label2.frame = CGRectMake(2*width, 0, width, height)
-        label3.frame = CGRectMake(0, 0, width, height)
-        scrollview.contentOffset = CGPointMake(width, 0)
+        label1.frame = CGRect(x: width, y: 0, width: width, height: height)
+        label2.frame = CGRect(x: 2 * width, y: 0, width: width, height: height)
+        label3.frame = CGRect(x: 0, y: 0, width: width, height: height)
+        scrollview.contentOffset = CGPoint(x: width, y: 0)
     }
 
 
